@@ -7,6 +7,7 @@
 scoreboard objectives add Ints dummy
 scoreboard objectives add PortalCooldown dummy "Portal Cooldown"
 scoreboard players set __zero Ints 0
+scoreboard players set __20 Ints 20
 scoreboard players set __30 Ints 30
 
 # target xyz coords
@@ -19,5 +20,5 @@ scoreboard objectives add PortalWarmupT dummy "Ticks to Teleport"
 scoreboard objectives add PortalWarmup dummy "Time to Teleport"
 
 # prepare users for titles
-title @a times 0 10 0
+title @a times 0 5 0
 
